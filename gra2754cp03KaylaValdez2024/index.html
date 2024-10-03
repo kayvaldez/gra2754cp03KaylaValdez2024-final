@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://use.typekit.net/zyx4fud.css">
+<title>DIY Responsive Site | Kayla Valdez 2024</title>
+<style>	
+	/*This is the global sheet for smartphones*/
+	body{
+    margin:0;
+    padding:0;
+    background-color:#FFCFE7;
+	text-align: center;
+	font-family: "calder-lc", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+     }
+wrapper{
+    width:100%;
+    min-width:400px;
+    max-width:1800px;
+    display:block;
+    margin:0 auto;
+     background-color:#F0C2B6;
+	padding: 0 1em;
+     }
+	
+	h1{
+    font-size: 3em;
+    text-align: center;
+	margin: 0 auto;
+	padding-top: 0.3em;
+	color:#AE2C2F;
+}
+	p{
+		color: white;
+	}
+	
+	.banner{
+    box-sizing: border-box;
+    margin: 0 auto;
+	padding:8px;
+    width: 100%;
+	}
+	
+	#nav{
+	}
+	
+	nav li{
+		display: inline;
+		color: #AE2C2F;
+	}
+	
+	nav a{
+		text-decoration: none;
+   		margin: 1em auto;
+    	font-size: 1em;
+    	text-align: center;	
+		color: #AE2C2F;
+	}
+	
+	nav a:hover{
+		text-decoration: underline;
+		color: lavenderblush;
+	}
+	
+	a{
+		text-decoration: none;
+   		margin: 1em auto;
+    	font-size: 1em;
+    	text-align: center;	
+		color: lavenderblush;
+	}
+	
+	a:hover{
+		text-decoration: underline;
+		color: #AE2C2F;
+	}
+	
+	
+	
+	footer{
+	padding:16px;
+	font-size:12px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	}
+	
+	div img {
+    width: 100%;
+	height: auto;
+    margin-bottom: -4px;
+}
+	
+	/*This is the beginning of the tablet media query*/
+	@media (min-width: 600px){
+		div {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;     
+}
+		
+		body,wrapper{
+			background-color: #C599B8;
+			
+		}
+		
+	}
+	/*This is the laptop media query*/
+	@media (min-width: 1300px){
+		div {
+    width: 32%;
+    margin-left: 0.5%;
+}
+		
+			body,wrapper{
+			background-color: #99B6C3;
+			
+		}
+		
+	}
+</style>	
+</head>
+
+<body>
+	<wrapper>
+	  <header>
+		<h1>DIY Greeting Cards</h1>
+		  
+		  <nav> 
+        		<li> <a href="#">Home</a> |</li>
+        		<li> <a href="#">DIY</a> |</li>
+        		<li> <a href="#">Tutorials</a> |</li>
+        		<li> <a href="#">Custom</a> |</li>
+        		<li> <a href="#">Contact</a> </li>
+    		  </nav> 
+		  <banner><img src="banner.jpg" alt="banner" class="banner"/>		
+		</banner>
+		   
+	</header>
+		  <main>
+  <div><img src="birthday.jpg" alt="birthday" />
+    <p class="card"><a href="#">birthday cards</a> </p>
+	  
+  </div>
+  <div><img src="anniversary.jpg" alt="anniversary"/>
+    <p class="card"><a href="#">anniversary cards</a>
+    </p>
+  </div>
+  <div><img src="invitations.jpg" alt="invite"/>
+    <p class="card"><a href="#">invitations</a>
+    </p>
+  </div>
+  <div><img src="celebration.jpg" alt="celebrate"/>
+    <p class="card"><a href="#">celebration</a> </p>
+  </div>
+  <div><img src="pop-up.jpg" alt="pop"/>
+    <p class="card"><a href="#">pop ups</a>
+    </p>
+  </div>
+  <div><img src="envelopes.jpg" alt="envelope"/>
+    <p class="card"><a href="#">envelopes</a>
+	</p>
+  </div>
+	</main>
+		  
+		  
+<footer>
+	<p>&copy; 2024, Kayla Valdez
+This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+
+	
+	</footer>		  
+</wrapper>
+</body>
+	
+</html>
